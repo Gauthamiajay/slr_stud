@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #d4edda; text-align: center; }
+        h1 { color: #155724; }
+        div { background: white; padding: 20px; border-radius: 10px; width: 50%; margin: auto; }
+    </style>
+</head>
+<body>
+    <h1>Predicted Score</h1>
+    <div>
+        <p><strong>Study Hours:</strong> {{ hours }}</p>
+        <p><strong>Predicted Score:</strong> {{ prediction }}</p>
+        <p><strong>Model Accuracy:</strong> {{ accuracy }}%</p>
+        <p><strong>Mean Absolute Error:</strong> {{ error }}</p>
+        <a href="/">Try Again</a>
+    </div>
+</body>
+</html>
